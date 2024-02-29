@@ -4,7 +4,7 @@ const anoAtual = new Date().getFullYear(); //intanciando um objeto do tipo date(
 
 const livro = {
     titulo: 'O senhor dos anéis',
-    autor: "Tolken",
+    autor: "Tolkien",
     anoPublicacao: "1954",
     genero: "Fantasia"
 };
