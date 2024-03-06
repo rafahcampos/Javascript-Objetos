@@ -1,7 +1,7 @@
 /*Ex4 */
 
 
-numeros = [10,10,10];
+const numeros = [10,20,40];
 
 const calculadora = {
   soma: function (x, y) {
@@ -23,9 +23,10 @@ const calculadora = {
   calcularMedia: function (num) {
     const soma = num.reduce((total, num) => total + num, 0);
     return soma / num.length;
-
-  }
+  }  
 };
+
+
 
 console.log('-----------------------');
 console.log(`Soma: ${calculadora.soma(10, 2)}`);
