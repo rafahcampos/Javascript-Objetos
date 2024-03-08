@@ -9,11 +9,11 @@ const carro = {
     placa: 'EVD-4453'
   };
 
+
+
+Object.defineProperty(carro, "placa", {enumerable:false});
+
+
 for (let chave in carro){
-    console.log(`${chave} : ${carro[chave]}`);
+  console.log(`${chave} : ${carro[chave]}`);
 }
-
-
-Object.defineProperty(carro, "placa", {enumerable:true});
-
-console.log(carro.placa);
