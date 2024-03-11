@@ -13,11 +13,13 @@ console.log(animaisListObject);
 //c) Adicione um novo animal ao array de animais. O novo animal deve ter um id único, nome, tipo e habitat.
 
 const novoAnimal = {
-    "id":"3",
+    "id":4,
     "nome": "Veado",
-    "tipo": 'Especifico',
+    "tipo": "Especifico",
     "habitat": "Africa"
 };
 
-animaisList.push(novoAnimal);
+animaisList.animais.push(novoAnimal);
+
+console.log(animaisList);
 
